@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Information</title>
+  </head>
+  <body>
+    <h1>Device Information</h1>
+    <script>
+      document.write('<p><strong>App Name:</strong> ' + navigator.appName + '</p>');
+      document.write('<p><strong>App Version:</strong> ' + navigator.appVersion + '</p>');
+      document.write('<p><strong>User Agent:</strong> ' + navigator.userAgent + '</p>');
+      document.write('<p><strong>Platform:</strong> ' + navigator.platform + '</p>');
+      document.write('<p><strong>Language:</strong> ' + navigator.language + '</p>');
+      document.write('<p><strong>Cookies Enabled:</strong> ' + navigator.cookieEnabled + '</p>');
+      document.write('<p><strong>Online:</strong> ' + navigator.onLine + '</p>');
+      document.write('<p><strong>Screen Width:</strong> ' + screen.width + '</p>');
+      document.write('<p><strong>Screen Height:</strong> ' + screen.height + '</p>');
+      document.write('<p><strong>Color Depth:</strong> ' + screen.colorDepth + '</p>');
+      document.write('<p><strong>Pixel Ratio:</strong> ' + (window.devicePixelRatio || 1) + '</p>');
+      console.log('App Name:', navigator.appName);
+      console.log('App Version:', navigator.appVersion);
+      console.log('User Agent:', navigator.userAgent);
+      console.log('Platform:', navigator.platform);
+      console.log('Language:', navigator.language);
+      console.log('Cookies Enabled:', navigator.cookieEnabled);
+      console.log('Online:', navigator.onLine);
+      console.log('Screen Width:', screen.width);
+      console.log('Screen Height:', screen.height);
+      console.log('Color Depth:', screen.colorDepth);
+      console.log('Pixel Ratio:', window.devicePixelRatio || 1);
+    </script>
+  </body>
+</html>
